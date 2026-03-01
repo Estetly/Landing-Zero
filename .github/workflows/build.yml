@@ -40,7 +40,7 @@ jobs:
     - name: Get and push frontend image to GCP
       uses: docker/build-push-action@v5
       with:
-        context: ./estetlyWaitingList/frontend
+        context: .
         push: true
         tags: ${{ env.FRONTEND_IMAGE_TAG }}:${{ github.ref_name }}
         cache-from: type=gha
