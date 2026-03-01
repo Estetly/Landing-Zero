@@ -99,7 +99,7 @@ export default function Home() {
       >
         <UnicornBackground />
         <Script
-          src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.29/dist/unicornStudio.umd.js"
+          // src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.29/dist/unicornStudio.umd.js"
           strategy="afterInteractive"
           onLoad={() => {
             const w = window as unknown as { UnicornStudio?: { init?: () => void; isInitialized?: boolean } };
