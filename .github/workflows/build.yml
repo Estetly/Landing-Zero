@@ -8,7 +8,7 @@ on:
 env:
   REGION: europe-west9
   PROJECT_ID: estetly
-  REPO: landing-page-zero
+  REPO: landing-page
   FRONTEND_IMAGE_NAME: waiting-list-frontend
 
 jobs:
